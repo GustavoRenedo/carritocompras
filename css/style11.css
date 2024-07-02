@@ -1,0 +1,221 @@
+/* Paypal (inicio) */
+@media screen and (max-width: 400px) {
+    #paypal-button-container {
+        width: 100%;
+    }
+}
+
+/* Media query for desktop viewport */
+@media screen and (min-width: 400px) {
+    #paypal-button-container {
+        width: 250px;
+    }
+}
+/* Paypal (fin) */
+
+/*LOGIN*/
+
+.Login-control {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: url(../img_config/log_reg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login-container {
+    height: 29.75em;
+    width: 44em;
+    margin: 2em auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.login-info-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0.5rem;
+    background-color: rgb(165, 165, 165);
+}
+
+.image-container {
+    padding: 0rem;
+    width: 50%;
+    background: url(../img_config/foto_login.jpg);
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+.titulo-login {
+    text-transform: capitalize;
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--title-bg);
+}
+
+.login-info-container>p {
+    font-size: 1.25em;
+    margin-top: 1.5em;
+}
+
+.botones-container {
+    height: 55%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botones,
+.boton-acceder {
+    
+    width: 90%;
+    height: 3.125rem;
+    font-size: 1em;
+}
+
+.botones {
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+.botones:hover {
+    border: 2px solid rgb(82, 82, 230);
+}
+
+.boton-acceder {
+    width: 80%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(5, 5, 168);
+    cursor: pointer;
+}
+
+.boton-termino-Form {
+    background-color: rgb(11, 138, 11);
+
+
+}
+
+input:focus,
+select:focus,
+select,
+input.form-control:focus {
+
+    outline: none !important;
+
+    outline-width: 0 !important;
+
+    box-shadow: none;
+
+    -moz-box-shadow: none;
+
+    -webkit-box-shadow: none;
+
+}
+
+textarea:focus,
+input:focus,
+input[type]:focus {
+
+    border-color: rgb(21, 136, 40);
+
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(22, 9, 94, 0.6);
+
+    outline: 0 none;
+
+}
+
+/*Login (FIN)*/
+
+/* Estilos Pagina Principal (Inicio)*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+
+	--blue : #003366;
+	--green : #0cf504;
+	--purple-dark: #170312;
+	--purple-medium: #0c0333;
+    --purple-light: #531253;
+    --gray-light: #eaeaea;
+    --white: #f4fffd;
+}
+
+body {
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-size: 22px;
+}
+
+/* Header */
+
+/* Estilos Aviso y colorMenu*/
+
+.tienda-fondos{
+	background: linear-gradient(-90deg, var(--blue), #000000);
+}
+
+.menu-principal{
+    background: linear-gradient(-90deg, var(--blue), var(--blue));
+}
+.menu-tienda{
+	font-size: 19px;
+	color: white;
+	font-family: 'Montserrat';
+}
+.menu-tienda:hover{
+	color: #0cf504;
+}
+.boton-ver{
+	background: rgb(1, 48, 5);
+	border: none;
+	width: 90px;
+	
+}
+.boton-ver:hover{
+	background: #0cf504;
+}
+
+.aviso{
+    margin: 10px 100px 30px 100px;
+}
+
+.boton-aceptar{
+	font-size: 15px;
+}
+.fondo-registro{
+	background: rgb(83, 83, 83);
+}
+
+.titulo-aviso{
+    text-align: center;
+    padding: 10px;
+    font-family: serif;
+	font-style: italic;
+    font-size: 56px;
+}
+
